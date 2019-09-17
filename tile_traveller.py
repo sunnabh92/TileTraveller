@@ -5,12 +5,15 @@
 # For each tile, the function must alert if the direction is invalid and keep still in the same tile. If the direction that is available is chosen then move to that direction.
 # Have the functions for each direction not each tile.
 # Program has to track current location and future locations, print out available direcitons for the right tile and ask for direction.
-
+# https://github.com/sunnabh92/TileTraveller.git
 def Initialize():
     location = (1,1)
     return location
 location = (1,1)
     
+'''
+Tells where to go
+''' 
 
 def Possible_direction():
     if Position_of_player() == (1,1)or(2,1)or(3,1)or(1,2)or(3,2):
